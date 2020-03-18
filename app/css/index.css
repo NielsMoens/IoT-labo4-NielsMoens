@@ -1,0 +1,31 @@
+/*banner*/
+
+body {
+    margin: 0 auto;
+}
+
+nav {
+    text-transform: uppercase;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+form {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}

@@ -1,0 +1,119 @@
+/**
+ * Stylesheet for IoT
+ * 	
+ * @author Niels Moens <nielmoen@student.arteveldehs.be>
+ *
+ */
+
+/* ===========================================
+   Custom reset
+   =========================================== */
+
+html {
+    font-size: 0.625em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* ===========================================
+= WRAPPER
+=========================================== */
+.wrapper {
+    max-width: 1366px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+/* ===========================================
+   Helpers
+   =========================================== */
+
+.structural {
+    position: absolute;
+    left: -9999px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.ir {
+    display: block;
+    background-size: 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* ===========================================
+= HEADER
+=========================================== */
+/* main menu */
+#active{
+    border-bottom: 2px solid black;
+}
+
+#mainmenu {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#mainmenu a {
+    padding: 10px;
+    margin-left: 0.5em;
+    text-decoration: none;
+    font-family: "helvetica";
+}
+
+#mainmenu ul {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+#mainmenu ul li {
+    padding: 10px;
+
+}
+
+/* logo */
+#logo h1 a {
+    margin-top: 3rem;
+    color: black;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: "helvetica";
+    font-weight: 700;
+}
+
+#logo h1 {
+    text-align: center;
+}
